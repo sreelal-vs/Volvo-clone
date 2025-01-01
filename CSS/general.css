@@ -1,0 +1,538 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+.left
+{
+    
+    width:100px ;
+    height: 34px;
+    margin-top:14px ;
+    margin-left: 24px;
+}
+.middle
+{
+   flex: 1;
+   margin-left: 26%;
+   display: flex;
+   gap: 20px;
+}
+.button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 14px;
+    height: 40px;
+    cursor: pointer;
+}
+.signin
+{
+    
+    margin-top: 14px;  
+    margin-left: 60%;
+    height: 40px;
+    padding-left: 40px;
+    position: relative;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+
+}
+.signin:hover
+{
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.user
+{
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    left: 12px;
+}
+.search
+{
+    
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 35px;
+    margin-top:12px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    
+}
+.search:hover
+{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+.right
+{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+
+
+}
+.button:hover{
+    background-color: rgb(237, 237, 237);
+    border-radius: 3px;
+    transition:0.2s;
+}
+
+
+.head-part-1
+{
+    height: 65px;
+    display: flex;
+    
+    
+}
+.head-part-2
+{
+    padding: 12px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.video
+{
+    position: relative;
+    width: 100%;
+    
+}
+.video-head
+{
+    position: relative;
+    
+}
+.video-head p{
+    position: absolute;
+    color: white;
+    top: 13%;
+    left: 43%;
+}
+.video-head span
+{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    font-family: Poppins,arial;
+    font-size: 38px;
+    top: 19.5%;
+    left: 36.5%;
+}
+.video-head .line3
+{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    font-family: Poppins,arial;
+    font-size: 38px;
+    top: 28%;
+    left: 34.9%;
+}
+.learn
+{
+    position: absolute;
+    left: 43%;
+    top: 51.5%;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.learn:hover
+{
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+.main-part1
+{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height:100vh;
+   
+}
+.main-part1 span{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 500;
+    top:11%;
+    left:41%;
+}
+.main-part1 ul li{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 6px;
+    border-radius: 1px;
+}
+.main-part1 ul li:hover
+{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+.main-part1 ul
+{
+    position: absolute;
+    display: flex;
+    top:19.5%;
+    left: 36%;
+    gap: 17.4px;
+}
+.cars
+{
+    display: flex;
+    gap: 13px;
+    position: absolute;
+    top: 29.5%;
+    left: 14%;
+    transform: translate(-29.5% -5%);
+}
+.about-car
+{
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 2.4%;
+    padding-bottom: 29px;
+    padding-top: 66px;
+    gap: 12px;
+    background-color:rgba(220, 220, 220, 0.225);
+    cursor: pointer;
+    
+}
+.about-car:hover
+{
+    background-color: rgba(204, 204, 204, 0.312);
+}
+.car-img
+{
+    width: 250px;
+}
+.about-car b{
+    font-size: 18px;
+}
+.about-car p
+{
+color: rgb(141, 141, 141);
+font-weight: 300;
+}
+.about-car .price
+{
+    font-size: 16px;
+    color: black;
+}
+.underline
+{
+    margin-top: 5px;
+    height: 2px;
+    background-color: black;
+}
+.main-part1> p{
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    font-weight: 500;
+    height:22px;
+    font-size: 16px;
+    
+}
+.main-part1> p:hover
+{
+    border-bottom: solid 3px;
+}
+#compare
+{
+    position: absolute;
+    top:79.6%;
+    left: 55%;
+    font-weight: 300;
+    font-size: 22px;
+}
+.main-part2
+{
+    background-color: rgb(255, 251, 243);
+    padding-top: 100px;
+    position: relative;
+    height: 1150px;
+   
+}
+.main-part2  p
+{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.whyvolvo
+{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 83.7%;
+}
+.whyvolvo img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.whyvolvo-about
+{
+    
+    display: flex;
+    gap: 2%;
+}
+ .whyvolvo-about-words span
+{
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+    font-size: 15px;
+}
+.whyvolvo-about-words h3
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.learn--more
+{
+    padding-top: 32px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.learn--more a
+{
+    
+    padding: 10px 25px;
+    border: solid 1px;
+    border-color: rgb(42, 96, 157);
+    color: rgb(42, 96, 157);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.learn--more a:hover
+{
+    background-color: rgb(42, 96, 157);
+    color: white;
+}
+.main-part3
+{
+    
+    padding-top:100px ;
+    height: 760px;
+}
+.main-part3 .indro-electric
+{
+    position: relative;
+    height: 150px;
+    
+}
+.main-part3 h3
+{
+    position: absolute;
+    left: 32.7%;
+    font-size: 26px;
+    font-weight: 500;
+}
+.main-part3 .indro-electric p
+{
+    margin-top: 29px;
+    position: absolute;
+    top: 13%;
+    left: 28%;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(99, 99, 99);
+}
+.main-part3 .indro-electric p span
+{
+    position: absolute;
+    left: 26%;
+}
+.electric
+{
+    display: flex;
+    justify-content: center;
+    height: 480px;
+    gap: 20px;
+}
+.electric-about
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    background-color: rgb(250, 250, 250);
+    
+}
+.electric-about img
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 385px;
+}
+.electric-about h4
+{
+    margin-left: 13px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    margin-top: 47px;
+}
+.electric-about p
+{
+    margin-left: 13px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 200;
+    
+}
+.electric-about .electric-link
+{
+    width: 140px;
+    height: 20px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(42, 96, 157);
+}
+.electric-about .electric-link:hover
+{
+    border-bottom-style:solid ;
+    border-bottom-color:rgb(42, 96, 157) ;
+}
+#electric-link
+{
+    position: absolute;
+    left: 40.3%;
+    top: 38.8%;
+}
+#electric-link2
+{
+    position: absolute;
+    left: 42%;
+    top: 38.8%;
+}
+.electric-about .electric-link2
+{
+    width: 148px;
+    height: 20px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(42, 96, 157);
+}
+.electric-about .electric-link2:hover
+{
+    border-bottom-style:solid ;
+    border-bottom-color:rgb(42, 96, 157) ;
+}
+.main-part4
+{
+    position: relative;
+    height: 544px;
+    padding-left: 110px;
+    padding-bottom: 100px;
+   
+}
+.main-part4 img
+{
+   
+    width: 1270px;
+}
+.main-part4 p
+{
+    font-size: 26px;
+    font-weight: 600;
+    top: 37%;
+    left: 14.2%;
+    position: absolute;
+    color: white;
+}
+.main-part4 a
+{
+    padding: 14px 32px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    left: 14.2%;
+    top: 53%;
+    border-radius: 5px;
+    transition: opacity 0.7s;
+}
+.main-part4 a:hover{
+    opacity: 0.5;
+}
+.main-part5
+{
+
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.quick-link
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    height: 210px;
+}
+.quick-link div,.quick-link> p{
+    flex: 1;
+    text-align: center;
+}
+.quick-link div
+{
+    position: relative;
+}
+.quick-link> p
+{
+    padding-top: 20px;
+    font-size:16px ;
+    font-weight: 500;
+}
+.quick-link div
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quick-link div p
+{
+    transform: translateX(-20px);
+    font-size:25px ;
+    color: rgb(120, 120, 120);
+    font-weight: 300;
+}
+.quick-link div span
+{
+    flex: 1;
+    height:70px ;
+    align-content: center;
+    text-align: left;
+    border-top: solid 1px rgba(0, 0, 0, 0.12);
+    color:rgb(42, 96, 157) ;
+}
+.last-line
+{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
