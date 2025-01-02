@@ -492,7 +492,6 @@ font-weight: 300;
 {
     display: flex;
     flex-direction: column;
-
     width: 800px;
     height: 210px;
 }
@@ -535,4 +534,152 @@ font-weight: 300;
 .last-line
 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+main >p{
+    text-align: center;
+    margin:100px  0px;
+    color: rgba(0, 0, 0, 0.64);
+}
+footer
+{
+    height:485px;
+    padding: 0px 20px;
+    background-color: rgb(255, 252, 247);
+}
+footer div div .gt{
+    width: 12.5px;
+    position: absolute;
+    left: 52.7%;
+    margin-top: 37.3px;
+    
+}
+footer div button{
+    margin-top: 35px;
+    width: 78px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 17px;
+    position: relative;
+    background-color: rgb(255, 252, 247);
+    border: none;
+}
+footer div button:hover
+{
+    border-bottom: solid 3px;
+
+}
+footer div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.row1 {
+    display: flex; 
+    flex-direction: row;
+    column-gap: 64px;
+    margin-top: 30px;
+}
+
+.row1 p {
+    margin: 0; 
+}
+
+.row1 div {
+    background-color: rgb(255, 252, 247);
+    row-gap: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-head
+{
+    font-size: 14px;
+    line-height: 5px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    color: rgba(0, 0, 0, 0.46);
+    
+}
+.links
+{
+    height:20px;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+}
+.links:hover::after
+{
+    content: ""; 
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 100%; 
+    height: 3px; 
+    background-color: black; 
+    
+}
+#book
+{
+    margin-top:26px;
+    margin-left: 40px;
+}
+.location
+{
+    padding-top: 43px;
+    padding-left: 42px;
+    font-weight: 500;
+    position: relative;
+}
+.location img
+{
+    width: 17px;
+    position: absolute;
+    left: 22%;
+    top: 70%;
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+     margin-top: 37px;
+     margin-left: 29px;
+     column-gap: 43px;
+     justify-content: center;
+}
+
+.icons .icon
+{
+    width: 23px;
+}
+.policy
+{
+    display: flex;
+    margin-top: 38px;
+    row-gap: 7px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.407);
+}
+.policy .legal
+{
+    display: flex;
+    column-gap: 20px;
+    
+
+}
+.policy .legal span
+{
+    position: relative;
+    cursor: pointer;
+}
+.policy .legal span:hover::after
+{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.407);
+    
 }
